@@ -3,7 +3,6 @@ import {Observer} from 'rxjs/Observer';
 import 'rxjs/add/observable/from';
 import 'rxjs/add/operator/mergeMap';
 import 'rxjs/add/operator/map';
-
 const QUAKE_URL = 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson';
 const map = L.map('map').setView([33.858631, -118.279602], 7);
 L.tileLayer(`http://{s}.tile.osm.org/{z}/{x}/{y}.png`).addTo(map);

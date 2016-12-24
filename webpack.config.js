@@ -1,12 +1,13 @@
+const webpack = require('webpack');
 
 module.exports = {
-    entry: './app/main.ts',
-    output:{
+    entry: './app/main',
+    output: {
         filename: './app/bundle.js'
     },
-    module:{
+    module: {
         loader: [
-            {test:/\.ts?$/,loader:'ts-loader'}
+            {test: /\.ts?$/, loader: 'ts-loader'}
         ]
     }
 }

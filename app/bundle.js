@@ -78,6 +78,8 @@
 	    var point = _a.point;
 	    point.addTo(map);
 	});
+	// Observable.fromEvent(document,'mouseenter').map ... filter
+	// Observable.fromEvent(document,'mouseleave'). 
 
 
 /***/ },
