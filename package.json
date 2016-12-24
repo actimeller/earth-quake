@@ -1,0 +1,22 @@
+{
+  "name": "earth-quake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actimeller/earth-quake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actimeller/earth-quake/issues"
+  },
+  "homepage": "https://github.com/actimeller/earth-quake#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
